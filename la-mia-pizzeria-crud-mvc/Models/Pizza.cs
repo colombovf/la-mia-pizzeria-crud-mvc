@@ -13,5 +13,7 @@ namespace la_mia_pizzeria_crud_mvc.Models
         public string Image { get; set; }
 
         public List<Categoria> Categorie { get; set; } = new List<Categoria>();
+
+        public Pizza() {}
     }
 }

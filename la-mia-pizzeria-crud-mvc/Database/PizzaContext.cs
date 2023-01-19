@@ -9,7 +9,7 @@ namespace la_mia_pizzeria_crud_mvc.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost;Database=MenuPizzeria;" +
+            optionsBuilder.UseSqlServer("Data Source=localhost;Database=MenuPizzeria1;" +
             "Integrated Security=True;TrustServerCertificate=True");
         }
 
